@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CanchaPro - Reservas</title>
+  <link rel="stylesheet" href="reservas.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>CanchaPro</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="login.html">Iniciar sesión</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Reserva tu cancha</h2>
+      <p>Selecciona una cancha disponible, revisa horarios y confirma tu reserva.</p>
+    </section>
+
+    <section class="filters">
+      <input type="date" />
+      <select>
+        <option>Fútbol 7</option>
+        <option>Fútbol 5</option>
+        <option>Tenis</option>
+        <option>Pádel</option>
+      </select>
+      <button>Buscar disponibilidad</button>
+    </section>
+
+    <section class="court-list">
+      <article class="court-card">
+        <h3>Cancha Los Pinos</h3>
+        <p>Fútbol 7 · Pasto sintético</p>
+        <span class="available">Disponible</span>
+        <div class="times">
+          <button>18:00</button>
+          <button>19:00</button>
+          <button>20:00</button>
+        </div>
+      </article>
+
+      <article class="court-card">
+        <h3>Cancha Central</h3>
+        <p>Fútbol 5 · Techada</p>
+        <span class="available">Disponible</span>
+        <div class="times">
+          <button>17:30</button>
+          <button>21:00</button>
+          <button>22:00</button>
+        </div>
+      </article>
+
+      <article class="court-card">
+        <h3>Cancha San Martín</h3>
+        <p>Pádel · Iluminación nocturna</p>
+        <span class="reserved">Alta demanda</span>
+        <div class="times">
+          <button>16:00</button>
+          <button>18:30</button>
+          <button>19:30</button>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html> 
