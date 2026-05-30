@@ -43,3 +43,4 @@ frontend/
 ├── reservas.html
 ├── reservas.css
 └── app.js
+Actualización asociada a la tarea SCRUM-10.
